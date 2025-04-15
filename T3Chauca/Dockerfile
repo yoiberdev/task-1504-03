@@ -11,7 +11,7 @@ COPY T3Chauca/pom.xml .
 RUN mvn dependency:go-offline
 
 # Copiar el código fuente de tu aplicación
-COPY T3Chauca/src /app/src
+COPY T3Chauca/src /src
 
 # Ejecutar Maven para compilar y generar el archivo JAR
 RUN mvn clean package -DskipTests
