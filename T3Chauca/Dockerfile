@@ -1,5 +1,5 @@
 # Etapa 1: Construcción del JAR con Maven
-FROM maven:3.8.6-openjdk-17-slim AS build
+FROM maven:3.8.6-openjdk-21-slim AS build
 
 # Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /app
